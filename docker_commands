@@ -1,0 +1,16 @@
+## Docker commands used to build the application 
+# TODO: insert the docker build command
+docker build -t techtrends .
+
+## Docker commands used to run the application
+docker run -d -p 7111:3111 techtrends
+
+## Docker commands used to get the application logs
+docker logs 2d0c280b6fa1
+
+## Logs from the container running the TechTrends application
+2023-08-16 11:00:35  * Serving Flask app 'app' (lazy loading)
+2023-08-16 11:00:35  * Environment: production
+2023-08-16 11:00:35    WARNING: This is a development server. Do not use it in a production deployment.
+2023-08-16 11:00:35    Use a production WSGI server instead.
+2023-08-16 11:00:35  * Debug mode: off
