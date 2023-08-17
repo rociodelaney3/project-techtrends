@@ -8,9 +8,9 @@ metadata:
 spec:
   ports:
   - name: 4111-3111
-    port: {{ .Values.namespace.port }}
+    port: {{ .Values.service.port }}
     protocol: TCP
-    targetPort: {{ .Values.namespace.port }}
+    targetPort: {{ .Values.service.port }}
   selector:
     app: techtrends
-  type: {{ .Values.namespace.type }}
+  type: {{ .Values.service.type }}
