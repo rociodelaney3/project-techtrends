@@ -13,5 +13,5 @@ spec:
       valueFiles:
         - values-prod.yaml
     path: helm
-    repoURL: https://github.com/rociodelaney3/techtrends.git
+    repoURL: https://github.com/rociodelaney3/project-techtrends.git
     targetRevision: HEAD
