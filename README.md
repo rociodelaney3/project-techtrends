@@ -1,5 +1,8 @@
 TechTrends
 
+In this project, we are taking the role of a platform engineer with the main role to package and deploy the application to a Kubernetes platform. Throughout this project, we have used Docker to package the application, and automated the Continuous Integration process with GitHub Actions. For the release process, we have used Kubernetes declarative manifests, which were templated using Helm. To automate the Continuous Delivery process, you have used ArgoCD.
+
+
 TechTrends is an online website used as a news sharing platform, that enables consumers to access the latest news within the cloud-native ecosystem. In addition to accessing the available articles, readers are able to create new media articles and share them. We package and deploy TechTrends to Kubernetes using a CI/CD pipeline.
 
 The web application is written using the Python Flask framework. It uses SQLite, a lightweight disk-based database to store the submitted articles.
