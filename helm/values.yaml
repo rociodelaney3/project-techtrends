@@ -32,3 +32,4 @@ readinessProbe:
   httpGet:
     path: /healthz
     port: 3111
+
