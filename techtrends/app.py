@@ -97,6 +97,8 @@ def metrics():
         }),
         status=200,
         mimetype='application/json'
+        app.logger.info('Metrics request successful')
+
     )
 
 
